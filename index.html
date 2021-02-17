@@ -68,26 +68,28 @@
       honesty, quality, and the ability to listen and learn.
     </p>
     <h2>Contact</h2>
-    <form name="contact"
+    <form
+      name="My Contact Form"
       method="POST"
-      data-netlify="true">
-  
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+      data-netlify="true"
+      action="/thanks.html"
+    >
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
 
     <script src="/js/scripts.js"></script>
   </body>
