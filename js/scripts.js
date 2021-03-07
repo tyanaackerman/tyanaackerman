@@ -13,3 +13,11 @@ let pageBackground = document.querySelector("body");
 
 // Set class name from stored values
 pageBackground.className = backgrounds[numRand];
+
+// Setup Gallery
+const gallery = document.getElementById("gallery");
+
+// Use Gallery
+lightGallery(gallery, {
+  mode: "lg-zoom-out"
+});
