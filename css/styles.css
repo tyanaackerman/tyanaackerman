@@ -1,6 +1,6 @@
 #gallery {
     text-align: center;
-  
+    padding-top: 5em; 
   }
 
 
@@ -14,7 +14,7 @@ body {
 }
 
 img {
-  width: 200px;
+  width: 400px;
   /* border: 2px solid #F2F2F2; */
   box-sizing: border-box;
   border-radius: 10px;
