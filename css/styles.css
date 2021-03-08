@@ -18,11 +18,11 @@ img {
   width: 400px;
   /* border: 2px solid #F2F2F2; */
   box-sizing: border-box;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   }
   
 .lg-outer .lg-img-wrap {
-    background: rgba(255, 0, 0, 0.32);  
+    background: #0D0D0D;  
   }
 
 
